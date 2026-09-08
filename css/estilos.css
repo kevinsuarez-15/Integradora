@@ -160,3 +160,61 @@ button.boton {
         padding: 25px;
     }
 }
+.tabla-contenedor {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.tabla-contenedor h2 {
+    color: #0b1f3a;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.tabla-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+table th {
+    background-color: #0b1f3a;
+    color: white;
+    padding: 13px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f1f7fc;
+}
+
+.mensaje-exito {
+    background-color: #dff6e4;
+    color: #176b2c;
+    border: 1px solid #a8dfb4;
+    padding: 12px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sin-productos {
+    background-color: #f5f7fa;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}

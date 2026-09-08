@@ -33,9 +33,9 @@
                     ➕ Registrar producto
                 </a>
 
-                <a href="views/productos/listar.php" class="boton secundario">
-                    📋 Ver productos
-                </a>
+               <a href="controllers/ProductoController.php?accion=listar" class="boton secundario">
+    📋 Ver productos
+</a>
 
             </div>
 

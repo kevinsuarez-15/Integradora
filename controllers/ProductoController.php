@@ -21,11 +21,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     );
 
     if ($resultado) {
-        header("Location: ../views/productos/listar.php?mensaje=Producto registrado correctamente");
+        header("Location: ProductoController.php?accion=listar&mensaje=Producto registrado correctamente");
         exit;
     } else {
         echo "Error al registrar el producto.";
     }
+}
+
+/*
+ * Consultar productos
+ */
+if (isset($_GET["accion"]) && $_GET["accion"] === "listar") {
+
+    $productos = $producto->obtenerProductos();
+
+    $mensaje = $_GET["mensaje"] ?? "";
+
+    require_once __DIR__ . "/../views/productos/listar.php";
+    exit;
 }
 
 ?>
