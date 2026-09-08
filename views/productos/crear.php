@@ -8,6 +8,7 @@
     <title>Registrar Producto</title>
 
     <link rel="stylesheet" href="../../css/estilos.css">
+    <script src="../../js/validaciones.js"></script>
 </head>
 
 <body>
